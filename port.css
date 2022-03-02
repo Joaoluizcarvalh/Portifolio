@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #151515;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 5rem;
+    height: 5rem;
+    gap: 10px;
+}
+
+.coffee{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.bem-vindo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #ffff;
+    font-size: 20px;
+}
+
+.section-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+
+.section-one-ft-port{
+    width: 15rem;
+    height: 15rem;
+}
+.section-one-text-port{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.section-one-text-port h3{
+    font-weight: 300;
+    color: #ffff;
+    font-size: 1.2rem;
+    position: absolute;    
+}
+
+.section-one-text-port h1{
+    font-weight: 800;
+    color: #6802FF;
+    font-size: 5.2rem;
+}
+
+.article-one-button{
+    display: flex;
+    justify-content: center;
+}
+
+.section-one-button{
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid #ffff;
+    background-color: #151515;
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    width: 14rem;
+}
+
+.section-one-button:hover{
+    background-color: #151515;
+    color: #6802FF;
+    border: 1px solid #ffff;
+    transition: 0.5s ease;
+}
+
+.section-two{
+    padding-top: 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-two img{
+    width: 45vw;
+    height: 45vh;
+    border-radius: 1rem;
+}
+
+.section-two-text{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    width: 40vw;
+}
+
+.section-two-text h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.section-two-text h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.section-two-text a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 2rem;
+    width: 12rem;
+    height: 2.5rem;
+}
+
+.section-two-text a:hover{
+    color: #6802FF;
+    transition: 0.5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+.section-three{
+    padding-top: 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-three img{
+    width: 45vw;
+    height: 45vh;
+    border-radius: 1rem;
+}
+
+.section-three-text{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    width: 40vw;
+}
+
+.section-three-text h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.section-three-text h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.section-three-text a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 2rem;
+    width: 12rem;
+    height: 2.5rem;
+}
+
+.section-three-text a:hover{
+    color: #6802FF;
+    transition: 0.5s ease;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #1b1819;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background: #1b1819;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #6802FF;
+    border-radius: 15px;
+}
