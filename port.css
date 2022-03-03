@@ -16,7 +16,7 @@ header{
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
-    padding-left: 5rem;
+    margin-left: 5rem;
     height: 5rem;
     gap: 10px;
 }
@@ -206,4 +206,71 @@ header{
 ::-webkit-scrollbar-thumb{
     background: #6802FF;
     border-radius: 15px;
+}
+
+@media (max-width: 920px){
+    .section-one{
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .section-two{
+        flex-direction: column;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .section-two-text{
+        width: 80vw;
+    }
+    .section-two img{
+        margin-top: 1.5rem;
+        width: 80vw;
+        height: 55vh;
+    }
+    .section-three{
+        flex-direction: column;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .section-three-text{
+        width: 80vw;
+    }
+    .section-three img{
+        margin-top: 1.5rem;
+        width: 80vw;
+        height: 55vh;
+    }
+    .section-four{
+        flex-direction: column;
+        width: 80vw;
+    }
+    
+}
+
+@media (max-width: 730px){
+    .section-one{
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+    .section-one-ft-port{
+        width: 30vw;
+        height: 32vh;
+    }
+    .section-one-text-port h3{
+        font-size: 0.75rem;
+    }
+    .section-one-text-port h1{
+        font-size: 3.2rem;
+    }
+}
+
+@media (max-width: 550px){
+    header{
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .section-one-ft-port{
+        width: 45vw;
+        height: 38vh;
+    }
+
 }
