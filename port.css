@@ -137,15 +137,6 @@ header{
     transition: 0.5s ease;
 }
 
-
-
-
-
-
-
-
-
-
 .section-three{
     padding-top: 8rem;
     display: flex;
@@ -252,8 +243,8 @@ header{
         padding-top: 3rem;
     }
     .section-one-ft-port{
-        width: 30vw;
-        height: 32vh;
+        width: 15rem;
+        height: 15rem;
     }
     .section-one-text-port h3{
         font-size: 0.75rem;
@@ -269,8 +260,20 @@ header{
         justify-content: center;
     }
     .section-one-ft-port{
-        width: 45vw;
-        height: 38vh;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .section-two img{
+        margin-top: 1.5rem;
+        width: 90vw;
+        height: 15rem;
+    }
+
+    .section-three img{
+        margin-top: 1.5rem;
+        width: 90vw;
+        height: 15rem;
     }
 
 }
